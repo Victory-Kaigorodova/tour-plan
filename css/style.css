@@ -39,7 +39,7 @@ a {
   padding: 40px 0;
 }
 
-.header-top__inner {
+.header-top-inner {
   background-color: #fff;
 }
 
@@ -59,7 +59,7 @@ a {
           justify-content: space-between;
 }
 
-.header-menu__inner {
+.header-menu-inner {
   background-color: #0A223D;
 }
 
@@ -178,7 +178,7 @@ a {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  .header-menu__inner {
+  .header-menu-inner {
     display: none;
   }
 }
