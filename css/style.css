@@ -478,6 +478,85 @@ button {
   line-height: 15px;
 }
 
+.reviews {
+  padding: 40px 0 70px 0;
+}
+
+.reviews-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 70px;
+}
+
+.reviews-swiper {
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+.reviews-swiper__button {
+  position: absolute;
+  top: 0;
+  z-index: 22;
+  background-color: red;
+}
+
+.reviews-swiper__item {
+  background-color: #fff;
+  border-radius: 8px;
+  position: relative;
+  width: 730px;
+  padding: 136px 95px 30px 95px;
+  margin: auto;
+}
+
+.reviews-swiper__profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 150px;
+  top: -45px;
+  right: 50%;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+  position: absolute;
+}
+
+.reviews-swiper__avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.reviews-swiper__name {
+  margin-top: 15px;
+  color: #EC1F46;
+}
+
+.reviews-swiper__date {
+  font-size: 10px;
+  line-height: 13px;
+}
+
+.reviews-swiper__text {
+  text-align: justify;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
@@ -510,7 +589,7 @@ button {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-bottom: 45px;
+    margin-bottom: 0;
   }
   .hotel-grid__in {
     -webkit-box-orient: horizontal;
@@ -520,7 +599,6 @@ button {
   }
   .hotel__swiper {
     width: 100%;
-    margin-bottom: 0px;
   }
   .map {
     width: 327px;

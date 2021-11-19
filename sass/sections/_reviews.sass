@@ -1,0 +1,50 @@
+.reviews
+    padding: 40px 0 70px 0
+    &-title
+        font-weight: bold
+        font-size: 36px
+        line-height: 45px
+        text-align: center
+        text-transform: uppercase
+        margin-bottom: 70px
+    &-swiper
+        width: 100%
+        height: 300px
+        position: relative
+        &-slide
+        &__button
+            position: absolute
+            top: 0
+            z-index: 22
+            background-color: red
+            &--prev
+        &__item
+            background-color: $color-white
+            border-radius: 8px
+            position: relative
+            width: 730px
+            padding: 136px 95px 30px 95px
+            margin: auto
+        &__profile
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: space-between
+            height: 150px
+            top: -45px
+            right: 50%
+            transform: translateX(50%)
+            position: absolute
+        &__avatar
+            width: 90px
+            height: 90px
+            border-radius: 50%
+            object-fit: cover
+        &__name
+            margin-top: 15px
+            color: $color-actient
+        &__date
+            font-size: 10px
+            line-height: 13px
+        &__text
+            text-align: justify
