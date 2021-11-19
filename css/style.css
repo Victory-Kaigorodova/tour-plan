@@ -617,7 +617,17 @@ button {
           justify-content: space-between;
 }
 
+.activities-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin-bottom: 57px;
+}
+
 .card {
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 255px;
   width: 255px;
   padding: 25px;
@@ -655,6 +665,8 @@ button {
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
+  margin-top: 18px;
+  border-radius: 4px;
 }
 
 @media (max-width: 1200px) {
@@ -663,6 +675,10 @@ button {
   }
   .swiper {
     width: 550px;
+  }
+  .card {
+    height: 225px;
+    width: 225px;
   }
 }
 
@@ -706,6 +722,15 @@ button {
   }
   .newsletter-inner {
     width: 100%;
+  }
+  .activities-wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 20px;
+  }
+  .card {
+    height: 225px;
+    width: 340px;
   }
 }
 
@@ -777,6 +802,9 @@ button {
             align-items: flex-start;
   }
   .subscribe {
+    width: 100%;
+  }
+  .card {
     width: 100%;
   }
 }
