@@ -700,6 +700,9 @@ button {
   .search__input {
     width: 340px;
   }
+  .hotel {
+    padding-bottom: 40px;
+  }
   .hotel-grid {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -716,9 +719,16 @@ button {
   .hotel__swiper {
     width: 100%;
   }
+  .slider {
+    margin-bottom: 20px;
+  }
   .map {
     width: 327px;
     margin-left: 20px;
+  }
+  .newsletter {
+    padding-top: 70px;
+    padding-bottom: 70px;
   }
   .newsletter-inner {
     width: 100%;
@@ -804,15 +814,23 @@ button {
   .subscribe {
     width: 100%;
   }
+  .reviews-swiper__item {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .activities {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  .reviews {
+    padding-bottom: 50px;
+  }
   .card {
     width: 100%;
   }
 }
 
 @media (max-width: 320px) {
-  .container {
-    background-color: coral;
-  }
   .header .logo {
     width: 99px;
   }
