@@ -588,6 +588,75 @@ button {
   text-align: justify;
 }
 
+.card-1 {
+  background-image: url("../img/activ-1.jpg");
+}
+
+.card-2 {
+  background-image: url("../img/activ-2.jpg");
+}
+
+.card-3 {
+  background-image: url("../img/activ-3.jpg");
+}
+
+.card-4 {
+  background-image: url("../img/activ-4.jpg");
+}
+
+.activities {
+  padding: 60px 0 98px 0;
+}
+
+.activities-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card {
+  height: 255px;
+  width: 255px;
+  padding: 25px;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  z-index: -2;
+}
+
+.card::after {
+  content: '';
+  position: absolute;
+  background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.card__button {
+  width: 100px;
+  height: 30px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
