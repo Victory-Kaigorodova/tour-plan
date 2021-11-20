@@ -22,14 +22,14 @@
                         <img src="img/logo-horizontal.svg" alt="Logo: Best tour plam" class="logo-image">
                     </a>
     
-                    <form action="#" class="search search">
+                    <form action="#" class="search search--mobile--hidden">
                         <input type="text" class="search__input" placeholder="Search Location">
                         <button class="button search__button">
                             <img src="img/search.svg" alt="Icon: search" class="search__icon">
                         </button>
                     </form>
     
-                    <a class="user">
+                    <a class="user user--mobile--hidden">
                         <img src="img/avatar-Nathan.jpg" alt="Avatar: Nathan" class="avatar user__avatar">
                         <span class="user__name">Nathan</span>
                     </a>
@@ -50,6 +50,18 @@
         <div class="header-menu-inner">
             <div class="container">
                 <nav class="header-menu">
+                    <a href="#" class="header-menu__item user--mobile--visible">
+                        <img src="img/avatar-Nathan.jpg" alt="Avatar: Nathan" class="avatar user__avatar">
+                        <span class="user__name">Nathan</span>
+                    </a>
+
+                    <form action="#" class="header-menu__item search search--mobile--visible">
+                        <input type="text" class="search__input" placeholder="Search Location">
+                        <button class="button search__button">
+                            <img src="img/search.svg" alt="Icon: search" class="search__icon">
+                        </button>
+                    </form>
+
                     <a href="#" class="header-menu__item">All Deals</a>
                     <a href="#" class="header-menu__item">Hotels</a>
                     <a href="#" class="header-menu__item">Activities</a>
@@ -161,7 +173,7 @@
                     </div>
                     <!-- /.booking -->
                     <div class="map">
-                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A9d4b08a8eb4d090eba6f6362df6a95f602d4beee75d49e91e4e9966f71659248&amp;source=constructor" width="100%" height="213" frameborder="0"></iframe>
+                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A9d4b08a8eb4d090eba6f6362df6a95f602d4beee75d49e91e4e9966f71659248&amp;source=constructor" width="100%" height="213"></iframe>
                     </div>
                     <!-- /.map -->
                 </div>
@@ -201,45 +213,47 @@
                     <div class="reviews-swiper-wrapper">
                     <!-- Slides -->
 
-                    <div class="reviews-swiper__item">
-                        
-                        <div class="reviews-swiper__profile">
-                            <img src="img/avatar-Megan.jpg" alt="avatar: Megan" class="reviews-swiper__avatar">
-                            <div class="reviews-swiper__name">Megan Fox</div>
-                            <!-- /.reviews-swiper__name -->                            
-                            <div class="reviews-swiper__date">Stayed 18 Nov, 2019</div>
-                            <!-- /.reviews-swiper__date -->
-                            <div class="reviews-swiper__rating">
-                                <img src="img/star.svg" alt="star" class="star">
-                                <img src="img/star.svg" alt="star" class="star">
-                                <img src="img/star.svg" alt="star" class="star">
-                                <img src="img/star.svg" alt="star" class="star">
-                                <img src="img/star.svg" alt="star" class="star">
+                        <div class="reviews-swiper__item">
+                            
+                            <div class="reviews-swiper__profile">
+                                <img src="img/avatar-Megan.jpg" alt="avatar: Megan" class="reviews-swiper__avatar">
+                                <div class="reviews-swiper__name">Megan Fox</div>
+                                <!-- /.reviews-swiper__name -->                            
+                                <div class="reviews-swiper__date">Stayed 18 Nov, 2019</div>
+                                <!-- /.reviews-swiper__date -->
+                                <div class="reviews-swiper__rating">
+                                    <img src="img/star.svg" alt="star" class="star">
+                                    <img src="img/star.svg" alt="star" class="star">
+                                    <img src="img/star.svg" alt="star" class="star">
+                                    <img src="img/star.svg" alt="star" class="star">
+                                    <img src="img/star.svg" alt="star" class="star">
+                                </div>
+                                <!-- /.reviews-swiper__rating -->
                             </div>
-                            <!-- /.reviews-swiper__rating -->
+                            <!-- /.reviews-swiper__profile -->
+                            <p class="reviews-swiper__text">It was very nice hotel with cleanliness. Staff behavior was good and polite. They welcome us very well. Issue was only that Lift was not in working and we were allotted to 3rd floor and amenities articles were in corner of gallery which were giving bad feeling. Breakfast was good and support of the staff was also very nice. Location is not good as per atmosphere, it is very nearby most of the popular places but self location in a narrow street is not good. Overall it was a good experience and could recommend.</p>
                         </div>
-                        <!-- /.reviews-swiper__profile -->
-                        <p class="reviews-swiper__text">It was very nice hotel with cleanliness. Staff behavior was good and polite. They welcome us very well. Issue was only that Lift was not in working and we were allotted to 3rd floor and amenities articles were in corner of gallery which were giving bad feeling. Breakfast was good and support of the staff was also very nice. Location is not good as per atmosphere, it is very nearby most of the popular places but self location in a narrow street is not good. Overall it was a good experience and could recommend.</p>
+                        
+                        <!-- <div class="reviews-swiper__item">
+                            slide2
+                        </div>
+                        <div class="reviews-swiper__item">
+                            slide3
+                        </div> -->
 
+                        <!-- If we need navigation buttons -->
+                        <button class="reviews-swiper__button reviews-swiper__button--prev">
+                            <img src="img/arrow-prev-second.svg" alt="prev" class="arrow">
+                        </button>
+                        <button class="reviews-swiper__button reviews-swiper__button--next">
+                            <img src="img/arrow-next-second.svg" alt="next" class="arrow">
+                        </button>
+                        
                     </div>
-                    <!-- <div class="reviews-swiper__item">
-                        slide2
-                    </div>
-                    <div class="reviews-swiper__item">
-                        slide3
-                    </div> -->
-
-                    <!-- If we need navigation buttons -->
-                    <button class="reviews-swiper__button reviews-swiper__button--prev">
-                        <img src="img/arrow-prev-second.svg" alt="prev" class="arrow">
-                    </button>
-                    <button class="reviews-swiper__button reviews-swiper__button--next">
-                        <img src="img/arrow-next-second.svg" alt="next" class="arrow">
-                    </button>
                 </div>
 
             </div>
-            <!-- /.slider -->
+            <!-- /.reviews-slider -->
 
         </div>
         <!-- /.container -->
