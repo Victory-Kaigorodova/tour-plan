@@ -901,7 +901,6 @@ button {
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
-    background-color: red;
   }
   .swiper {
     width: 550px;
